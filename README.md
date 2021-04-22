@@ -33,7 +33,11 @@ ELSEIF [Gender] = '2' then 'FEMALE' END
 
 The analysis begins with [general information](https://public.tableau.com/profile/michael.mishkanian#!/vizhome/BikesharingAnalysis_16191255906100/BikesharingAnalysis), which contains a map of the top starting locations for rides in NYC and a pie chart showing the gender distribution of riders. This dashboard is intended to provide a basic overview of the data.
 
-Total user checkout times are then shown, which is then followed by the same graph filtered by gender.
+Total user checkout times are then shown, which is then followed by the same graph filtered by gender. This line graph showcased the large disparity in Male and Female ridership.
+
+Total trips by weekday are visualized as a heatmap. The majority of Monday-Friday trips are 7 AM - 9 AM and 5 PM - 7 PM. When filtering this heatmap by Gender, it is again found that Male ridership far outpaces Female ridership. However, the peak riding hours across all genders are similar.
+
+Finally, user trips by gender is visualized. This chart illustrates that users are much more likely to be subscribers, rather than ordinary customers.
 
 
 ## Summary  
@@ -44,7 +48,7 @@ Although this business is popular in NYC due to the heavy traffic, it is not cer
 ### Additional Suggestions
 In addition to the analysis presented in this Tableau Story, two more visualizations are suggested for future investigation:
 1. The top starting and stopping location by gender. This visualization will determine whether there is a gender disparity between the locations were rides begin and end.
-2. Usertype by gender should be investigated. If there is a difference between gender and usertype (subscriber vs customer), there could be a more targeted advertisement campagin if this new business is established.
+2. Usertype percentage by gender should be investigated. If there is a difference between gender and usertype (subscriber vs customer), there could be a more targeted advertisement campagin if this new business is established.
 
 **Author: Michael Mishkanian**   
 For all questions and inquiries, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
