@@ -31,17 +31,20 @@ ELSEIF [Gender] = '2' then 'FEMALE' END
 
 [Click here to view the completed Tableau business proposal.](https://public.tableau.com/profile/michael.mishkanian#!/vizhome/BikesharingAnalysis_16191255906100/BikesharingAnalysis)
 
+The analysis begins with [general information](https://public.tableau.com/profile/michael.mishkanian#!/vizhome/BikesharingAnalysis_16191255906100/BikesharingAnalysis), which contains a map of the top starting locations for rides in NYC and a pie chart showing the gender distribution of riders. This dashboard is intended to provide a basic overview of the data.
 
+Total user checkout times are then shown, which is then followed by the same graph filtered by gender.
 
 
 ## Summary  
 In this analysis, it is found that the majority of Citi bike riders in New York City (NYC) identify as **Male**. Additionally, these rides typically begin in **Ubran and densely populated areas**. Bike riding may be an attractive alternative to cars in NYC due to the congested streets and the ease of transportation.
 
-Although this business makes sense in NYC due to the heavy traffic, it is not certain that Des Moines will develop the same success. Further research must be done on Des Moines to determine whether car traffic and locational convenience would motivate potential customers to use this service. While NYC has a population density of approximately 27,000 people per square mile, Des Moines only has 2,436 people per square mile. In fact, NYC has nearly 39 times the population of Des Moines.
+Although this business is popular in NYC due to the heavy traffic, it is not certain that Des Moines will develop the same success. Further research must be done on Des Moines to determine whether car traffic and locational convenience would motivate potential customers to use this service. While NYC has a population density of approximately 27,000 people per square mile, Des Moines only has 2,436 people per square mile. In fact, NYC has nearly 39 times the population of Des Moines.
 
 ### Additional Suggestions
 In addition to the analysis presented in this Tableau Story, two more visualizations are suggested for future investigation:
-
+1. The top starting and stopping location by gender. This visualization will determine whether there is a gender disparity between the locations were rides begin and end.
+2. Usertype by gender should be investigated. If there is a difference between gender and usertype (subscriber vs customer), there could be a more targeted advertisement campagin if this new business is established.
 
 **Author: Michael Mishkanian**   
 For all questions and inquiries, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
