@@ -20,7 +20,7 @@ citi_bike_data_df.to_csv("aug_2019_citibike_data_datetime.csv", index=False)
 ```
 
 ### Correcting the Gender Column 
-The column "Gender" was originally formatted as 0, 1, and 2 to identify genders (Male, Female, and Unknown). To have this column correctly print with letters instead of numbers, the datatype of the column is changed to string and the following code was used to create a calculated field: 
+The column "Gender" was originally formatted as 0, 1, and 2 to identify genders (Unknown, Male, and Female). To have this column correctly print with letters instead of numbers, the datatype of the column is changed to string and the following code was used to create a calculated field: 
 ```tableau
 if [Gender] = '0' then 'UNKNOWN'
 ELSEIF [Gender] = '1' then 'MALE'
